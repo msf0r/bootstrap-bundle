@@ -32,7 +32,6 @@
         "twbs/bootstrap":            "Twitter Bootstrap provides the assets (images, CSS and JS)"
     },
     "autoload": {
-        "psr-0": { "Bc\\Bundle\\BootstrapBundle": "" }
-    },
-    "target-dir": "Bc/Bundle/BootstrapBundle"
+        "classmap": ["BcBootstrapBundle.php"]
+    }
 }
